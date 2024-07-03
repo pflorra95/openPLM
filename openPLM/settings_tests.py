@@ -114,7 +114,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.admin',
-    'django.contrib.comments',
+    'django_comments',
     'django.contrib.humanize',
     'django.contrib.messages',
     'django.contrib.staticfiles',

@@ -14,7 +14,7 @@ TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
     #XYZ: some error are notified to this address
-    ('Your Name', 'your_email@domain.com'),
+    ('priyanka', 'pflorra95@gmail.com'),
 )
 
 MANAGERS = ADMINS
@@ -112,7 +112,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.admin',
-    'django.contrib.comments',
+    'django_comments',
     'django.contrib.humanize',
     'django.contrib.messages',
     'django.contrib.staticfiles',
@@ -154,7 +154,7 @@ if "openPLM.apps.document3D" in INSTALLED_APPS:
 
 #XYZ: allowed hosts
 #: see :django:setting:`ALLOWED_HOSTS`
-ALLOWED_HOSTS = ["www.example.com",]
+ALLOWED_HOSTS = ["localhost"]
 
 #XYZ: EMAIL settings
 # https://docs.djangoproject.com/en/dev/ref/settings/#std:setting-EMAIL_HOST
